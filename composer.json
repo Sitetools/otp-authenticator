@@ -1,5 +1,5 @@
 {
-    "name": "xddesigners/otp-authenticator",
+    "name": "sitetools/otp-authenticator",
     "description": "A OTP authenticator for use with silverstripe/mfa",
     "type": "silverstripe-vendormodule",
     "keywords": [
