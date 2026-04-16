@@ -74,16 +74,16 @@ class Method implements MethodInterface
 
     public function getThumbnail(): string
     {
-        return ModuleLoader::getModule('xddesigners/otp-authenticator')
+        return ModuleLoader::getModule('sitetools/otp-authenticator')
             ->getResource('client/dist/images/otp.svg')
             ->getURL();
     }
 
     public function applyRequirements(): void
     {
-        Requirements::javascript('xddesigners/otp-authenticator: client/dist/js/bundle.js');
-        Requirements::css('xddesigners/otp-authenticator: client/dist/styles/bundle.css');
-        Requirements::add_i18n_javascript('xddesigners/otp-authenticator: client/lang');
+        Requirements::javascript('sitetools/otp-authenticator: client/dist/js/bundle.js');
+        Requirements::css('sitetools/otp-authenticator: client/dist/styles/bundle.css');
+        Requirements::add_i18n_javascript('sitetools/otp-authenticator: client/lang');
     }
 
     public function isAvailable(): bool
