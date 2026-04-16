@@ -1,5 +1,5 @@
 {
-  "name": "xddesigners-otp-authenticator",
+  "name": "sitetools-otp-authenticator",
   "main": "./client/src/boot/index.js",
   "author": "XD designers",
   "engines": {
